@@ -1,0 +1,423 @@
+.skillsyHobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+    position:  static;
+    width: 100%;
+    height: 1245px;
+    left: 0px;
+    top: 935px;
+    margin: 0 0 32px 0px;
+    flex-wrap: nowrap;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+    
+    position: static;
+    width: 1136px;
+    height: 244px;
+    left: 152px;
+    top: 0px;
+    margin: 0 0 88px 0px;
+}
+
+.listaSkills{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 1136px;
+    height: 174px;
+    left: 0px;
+    top: 70px;
+    margin: 32px 0px;
+}
+
+.listaSkills li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    position: static;
+    width: 176px;
+    height: 174px;
+    left: 0px;
+    top: 0px;
+
+    /* Preto/branco */
+
+    background: #FFFFFF;
+    margin: 0 8px;
+}
+
+.listaSkills li img{
+    font-family: Font Awesome 5 Brands;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #2A7AE4;
+    margin: 8px 0px;
+    padding: 0 16px;
+}
+
+.listaSkills li p{
+    position: static;
+    width: 144px;
+    height: 19px;
+    left: 16px;
+    top: 139px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Preto/100% */
+    
+    color: #464646;
+    align-self: stretch;
+    margin: 8px 0px;
+    padding: 0 16px;
+}
+
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+    position: static;
+    width: 1136px;
+    height: 244px;
+    left: 152px;
+    top: 0px;
+    margin: 0px 0px;
+}
+
+.formacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position: static;
+    width: 100%;
+    height: 581px;
+    left: 0px;
+    /*top: 664px;*/
+    
+    /* Azul/10% */
+    
+    background: #EAF2FD;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 88px 0px 0 0;
+    padding: 0px 32px;
+}
+
+.formacion h2{
+    position: static;
+    width: 339px;
+    height: 38px;
+    left: 550.5px;
+    top: 82px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* Preto/100% */
+    
+    color: #464646;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 82px 0px 0 0px;
+}
+
+.experiencias{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: static;
+    width: 1136px;
+    height: 347px;
+    left: 152px;
+    top: 152px;
+    
+    /* Inside auto layout */
+    
+    
+    margin: 32px 0px 82px;
+}
+
+.experiencias ul{
+    display: inline-block;
+}
+
+.experiencia{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: static;
+    width: 368px;
+    height: 347px;
+    top: 0px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+.experiencia li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    position: static;
+    width: 368px;
+    height: 286px;
+    left: 0px;
+    top: 0px;
+    
+    /* Preto/branco */
+    
+    background: #FFFFFF;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.experiencia p{
+    position: static;
+    height: 26px;
+    left: 0px;
+    top: 294px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    
+    
+    /* Preto/100% */
+    
+    color: #464646;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+/* para tablets */
+@media screen and (max-width:768px) {
+    .skillsyHobbies{
+        width: 768px;
+        height: 1071px;
+        
+    }
+
+    .skills{
+        width: 768px;
+        height: 390px;
+        margin: 0 0 0px 0px;
+    }
+    
+    .listaSkills{
+        width: 704px;
+        height: 118px;
+        flex-wrap: wrap;
+    }
+
+    .listaSkills li{
+        width: 224px;
+        height: 118px;
+        margin: 0 8px 32px 0;
+    }
+
+    .hobbies{
+        width: 768px;
+        height: 390px;
+        
+    }
+
+    .formacion{
+        width: 100%;
+        height: 291px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .formacion h2{
+        width: 233px;
+        height: 26px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        margin: 32px 0;
+    }
+
+    .experiencias{
+        width: 768px;
+        height: 291px;
+        margin: 0;
+    }
+
+    .experiencia{
+        width: 224px;
+        height: 118px;
+    }
+
+    .experiencia li{
+        width: 224px;
+        height: 118px;
+        
+    }
+
+    .experiencia p{
+        height: 19px;
+        top: 126px;
+        
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: left;
+    }
+
+    .experiencia h4{
+        height: 16px;
+        top: 153px;
+        
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: left;
+    }
+
+}
+
+/* para Celular */
+@media screen and (max-width:415px) {
+    .skillsyHobbies{
+        width: 100%;
+        height: 1677px;
+    }
+
+    .skills{
+        width: 100%;
+        height: 508px;
+    }
+
+    .skills, .hobbies h2{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .listaSkills{
+        width: 328px;
+        height: 118px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 32px 0px;
+    }
+
+    .listaSkills li{
+        width: 156px;
+        height: 118px;
+        margin:  0 16px 32px 0;
+    }
+
+    .listaSkills li:nth-child(2n){
+        width: 156px;
+        height: 118px;
+        margin: 0 0 32px 0;
+    }
+
+    .hobbies{
+        width: 360px;
+        height: 508px;
+    }
+
+    .formacion{
+        width: 100%;
+        height: 661px;
+        align-items: center;
+    }
+
+    .experiencias{
+        width: 296px;
+        height: 539px;
+        flex-direction: column;
+        align-items: flex-start;
+        left: 32px;
+        top: 90px;
+    }
+
+    .experiencia{
+        width: 296px;
+        height: 169px;
+        margin: 0px 0 16px 0;
+    }
+
+    .experiencia li{
+        width: 296px;
+        height: 118px;
+    }
+
+    .experiencia img{
+        width: auto; 
+        max-height: 50%; 
+    }
+
+}

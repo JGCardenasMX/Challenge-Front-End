@@ -1,0 +1,225 @@
+.hola{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 1136px;
+    height: 368px;
+    left: 152px;
+    margin: 32px 152px ;
+}
+
+
+
+.hola h1{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 61px;
+
+    /* Preto/100% */
+
+    color: #464646;
+    padding-bottom: 24px;
+}
+
+.hola img{
+    position: static;
+    width: 368px;
+    height: 368px;
+    left: 768px;
+    top: 0px;
+}
+
+.hola p{
+    position: static;
+    width: 751px;
+    height: 52px;
+    left: 0px;
+    top: 146px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    
+    /* Preto/100% */
+    
+    color: #464646;
+    padding-bottom: 24px;
+    align-self: stretch;
+}
+
+.linkSocial{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 467px;
+    height: 24px;
+    left: 0px;
+    top: 222px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.linkSocial li{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 24px;
+}
+
+.linkSocial a{
+    display: flex;
+    flex-direction: row;
+    font-family: Raleway;
+    font-style: normal;
+    
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    /* Preto/100% */
+
+    color: #464646;
+    font-weight: 500;
+}
+
+@media screen and (max-width:768px) {
+    .hola{
+        width: 768px;
+        height: 210px;
+        left: 0;
+        margin: 0;
+    }
+
+    .hola div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: static;
+        width: 524px;
+        height: 130px;
+        left: 32px;
+        top: 40px;
+        margin: 0px 0px 0px 32px;
+    }
+
+    .hola h1{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px; 
+        padding-bottom: 8px;
+    }
+
+    .hola img{
+        width: 146px;
+        height: 146px;
+        margin: 0 34px 0 32px;
+    }
+    
+    .hola p{
+        width: 524px;
+        height: 38px;
+        
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        padding-bottom: 10.5px;
+    }
+
+    div.linkSociales{
+        display: flex;
+        margin: 0;
+        width: 467px;
+        height: 24px;
+        align-content: space-between;
+        align-items: flex-start;
+        
+    }
+}
+
+/* para Celular */
+@media screen and (max-width:415px) {
+    .hola{
+        width: 360px;
+        height: 294px;
+        flex-wrap: wrap-reverse;
+        margin: auto;
+    }
+
+    .hola div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    
+        position: static;
+        width: 328px;
+        height: 148px;
+        left: 16px;
+        top: 130px;
+        margin: 16px 16px;
+        
+    }
+
+    .hola h1{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .hola img{
+        width: 98px;
+        height: 98px;
+        margin: 16px 246px 0px 16px;
+        order: 0;
+    }
+    
+    .hola p{
+        width: 328px;
+        height: 48px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 0;
+    }
+
+    div.linkSociales{
+        width: 318px;
+        height: 16px;
+        left: 0px;
+        top: 132px;
+        margin: 16px 26px 16px 0px;
+    }
+
+    .linkSocial{
+        width: 318px;
+        height: 16px;
+        left: 0px;
+        top: 132px;
+    
+    }
+    
+    .linkSocial a{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

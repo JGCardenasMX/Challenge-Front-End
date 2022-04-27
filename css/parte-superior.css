@@ -1,0 +1,175 @@
+.parteSuperior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px;
+
+    position: static;
+    width: 1136px;
+    height: 88px;
+    top: 0px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 152px 0px;
+}
+
+.parteSuperior ul{
+    right: 0;
+    font-weight: 500;
+}
+
+.parteSuperior ul li{
+    display: inline;
+    margin: 0 0 0 auto;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 642px;
+    height: 19px;
+    left: 494px;
+    top: 34.5px;
+    margin: 0 0;
+}
+
+.links li{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #464646;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    width: auto;
+    height: 24px;
+    left: 0px;
+    top: 32px;
+}
+
+.logo p{
+    position: static;
+    width: auto;
+    height: 16px;
+    left: 32px;
+    top: 2.5px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    size: 16px;
+}
+
+.filaEstrellitas::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.columnaEstrellitas{
+    float: left;
+    width: 50%;
+    padding-right: 1px;
+}
+
+#estrellaC1{
+    Width: 8px;
+    Height: 8px;
+    Top: 1px;
+    Left: 15px;
+}
+
+#estrellaC2{
+    Width: 8px;
+    Height: 8px;
+    Top: 15px;
+    Left: 1px;
+}
+
+/* para tablets */
+@media screen and (max-width:768px) {
+    .parteSuperior{
+        height: 56px;
+        width: 768px;
+        left: 0;
+        margin: 0 0;
+        padding: 0;
+        
+    }
+
+    .navegador{
+        position: static;
+        left: 0px;
+        top: 0px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 0px 0px;
+        
+    }
+
+    #sobre, #skills, #hobbies, #formacion, #proyectos{
+        display: none;
+    }
+
+    .logo {
+        left: 32px;
+        top: 16px;
+        flex: none;
+        padding-left: 32px;
+    }
+
+    .links{
+        padding-right: 32px;
+    }
+    
+}
+
+/* para Celular */
+@media screen and (max-width:415px) {
+    .parteSuperior{
+        width: 100%;
+    }
+
+    .logo {
+        padding-left: 16px;
+    }
+
+    .links{
+        padding-right: 16px;
+    }
+
+    .links li{
+        width: 140px;
+        height: 16px;
+        left: 204px;
+        top: 20px;
+        
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+}
+

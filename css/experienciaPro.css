@@ -1,0 +1,348 @@
+.areaExperenciaPro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+    position: static;
+    height: 1886px;
+    left: 152px;
+    top: 2212px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 32px 0;
+}
+
+.experienciaArticulos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: static;
+    width: 1136px;
+    height: 1816px;
+    left: 0px;
+    top: 70px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.programa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: static;
+    width: 1136px;
+    height: 406px;
+    left: 0px;
+    top: 0px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    flex-grow: 0;
+    margin: 32px 0;
+}
+
+.programa img{
+    margin: 0 16px 0 0;
+    height: 406px;
+}
+
+.programa h3{position: static;
+    width: 368px;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    
+    
+    /* Preto/100% */
+    
+    color: #464646;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 8px;
+}
+
+.programa p{position: static;
+    width: 368px;
+    height: 19px;
+
+    top: 34px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    /* Preto/100% */
+    
+    color: #464646;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: static;
+    width: auto;
+    height: auto;
+    top: 147px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    flex-grow: 1;
+}
+
+.info div{
+    display: flex;
+}
+
+.botones{
+    display: flex;
+}
+
+.repositorio {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    
+    position: static;
+    width: 116px;
+    height: 51px;
+    left: 0px;
+    top: 0px;
+    
+    /* Azul/100% */
+    
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 8px 0 0;
+    color: #2A7AE4;
+}
+
+.demo{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    
+    position: static;
+    width: 105px;
+    height: 51px;
+    left: 132px;
+    top: 0px;
+    
+    /* Azul/100% */
+    
+    background: #2A7AE4;
+    color: #FFFFFF;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0 0 8px ;
+
+}
+
+.programa img{
+
+}
+
+@media screen and (max-width:768px) {
+    .experienciaPro h2{
+        position: static;
+        height: 26px;
+        left: 56px;
+        top: 32px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .areaExperenciaPro{
+        width: 768px;
+        height: 2017px;
+        margin: 0;
+    }
+
+    .experienciaArticulos{
+        width: 704px;
+        height: 427px;
+        
+    }
+
+    .programa{
+        flex-direction: column;
+        width: 704px;
+        height: 427px;
+        align-items: flex-start;
+    }
+
+    .programa:nth-child(2n){
+        flex-direction: column-reverse;
+    }
+
+    .programa img{
+        width: 704px;
+        height: 320px;
+        margin: 0;
+    }
+
+    .info{
+        width: 704px;
+        height: 91px;
+        margin: 16px 0 0 0;
+    }
+
+    .programa h3{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 8px 0;
+    }
+
+    .programa p{position: static;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .botones{
+        width: 560px;
+        height: 40px;
+    }
+
+    .repositorio {
+        width: 108px;
+        height: 40px;
+        padding: 0;
+    }
+    
+    .demo{
+        width: 96px;
+        height: 40px;
+        padding: 0;
+    }
+
+}
+
+/* para Celular */
+@media screen and (max-width:415px) {
+    .experienciaPro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        position: static;
+        width: 100%;
+        height: 1321px;
+        left: 0px;
+        top: 2377px;
+    }
+
+    .areaExperenciaPro{
+        width: 296px;
+        height: 1215px;
+    }
+
+    .experienciaArticulos{
+        width: 296px;
+        height: 1215px;
+    }
+
+    .programa{
+        width: 296px;
+        height: 251px;
+    }
+
+    .programa img{
+        width: 296px;
+        height: 144px;
+    }
+
+    .info{
+        width: 296px;
+        height: 91px;
+    }
+
+    .programa h3{
+        width: auto;
+        height: auto;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .programa p{
+        width: 296px;
+        height: 16px;
+    }
+
+    .botones{
+        width: 296px;
+        height: 40px;
+    }
+
+    .repositorio {
+        width: 108px;
+        height: 40px;
+    }
+    
+    .demo{
+        width: 96px;
+        height: 40px;
+    }
+}
